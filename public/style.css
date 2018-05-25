@@ -1,0 +1,31 @@
+
+.heading{
+    text-align: center;
+    color: #3cb371;
+}
+
+
+.div1 {
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #3cb371;
+    padding: 20px; 
+    width: 800px;
+    height: 80px; 
+    margin: 10px auto;
+    position: relative;   
+}
+
+p.post_title {
+
+    font-size: 14px;
+    color: #3cb371;
+
+}
+
+p.post_body {
+
+    font-size: 12px;
+    color: #4A4A4A;
+
+}

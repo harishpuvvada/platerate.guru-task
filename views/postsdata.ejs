@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = 'utf-8'>
+		<title> posts </title>
+		<link rel='stylesheet' type='text/css' href='/style.css'>
+	</head>
+	<body>
+
+			<h1 class ='heading'>Posts</h1>
+
+	     <section>
+
+		    <% for(let i = 0; i < posts.length; i++) { %>
+		        <article class='div1'>
+		            <p class='post_title '><%= posts[i].title %></p>
+		            <p class='post_body '><%= posts[i].body %></p>
+		        </article>
+		    <% } %>
+
+		  </section>
+
+	</body>
+
+</html>
+
+
