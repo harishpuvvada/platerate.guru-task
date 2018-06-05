@@ -18,7 +18,12 @@ const hobbies ={
   'Answer':'Watching documentaries, travelling once in a while, keeping up to date with current affairs.'
 };
 
+const gender ={
+  'Question':'What is your Gender?',
+  'Answer':'Male'
+};
+
 
 module.exports = {
-  description,tech,techstack,hobbies
+  description,tech,techstack,hobbies,gender
 };
